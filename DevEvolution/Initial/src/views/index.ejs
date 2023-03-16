@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Node Classes</title>
+        <link rel="shortcut" href="publico/img/node.png">
+        <link rel="manifest" href="publico/img/node.png">
+        <link rel="stylesheet" href="publico/css/home.css">
+    </head>
+    <script>
+    </script>
+    <body>
+        <h1>Aula de EJS - Aluno: <%= aluno %></h1>
+        <% for (let aula of aulas) { %>
+          <h3><%= aula %></h3>
+        <% } %>  
+
+        <button onclick="window.location.href='/sobre'">Sobre</button>
+
+        <img src="publico/img/node.png" alt="Imagem">
+    </body>
+</html>
