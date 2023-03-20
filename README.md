@@ -1,2 +1,2 @@
 # dev_evolution_course
-DevEvolution, anotaç curso da IXC Soft
+DevEvolution, anotações e desenvolvimentos no curso da IXC Soft
